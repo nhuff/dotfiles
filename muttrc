@@ -1,0 +1,30 @@
+set folder="imaps://nrhuff.email.umn.edu:993/"
+set record="+Sent"
+set spoolfile="+INBOX"
+set nomove
+set from="nrhuff@umn.edu"
+set imap_user="nrhuff"
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+set smtp_url="smtp://nrhuff@smtp.umn.edu:587/"
+set ssl_min_dh_prime_bits=512
+set mail_check=60
+set timeout=15
+set message_cache_clean=yes
+set realname="Nathan R Huff"
+set postponed="+Drafts"
+set pager_index_lines=6
+set sort=threads
+set strict_threads=yes
+set confirmappend=no
+set edit_headers=yes
+set alias_file=~/.mutt/aliases
+set date_format="%Y%m%dT%T"
+set index_format="%4C %Z %D %-20.20F %s"
+set query_command=~/.mutt/query.pl
+set signature=~/.mutt/signature
+
+source ~/.mutt/aliases
+
+auto_view "text/html"
