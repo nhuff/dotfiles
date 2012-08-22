@@ -25,7 +25,7 @@ PROMPT_COMMAND='PS1="[\u@\h \W $(git_prompt)]\$"'
 alias gpg=gpg2
 alias ppv='puppet parser validate'
 alias ppt='cd ~/repos/puppet && fab deploy_dev'
-alias ppd='cd ~/repos/puppet && fab deploy_prod'
+alias ppp='cd ~/repos/puppet && fab deploy_prod'
 
 set -o vi
 
