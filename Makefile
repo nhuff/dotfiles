@@ -8,5 +8,6 @@ install:
 	ln -sf ~/.dotfiles/awesome/rc.lua ~/.config/awesome/rc.lua
 	ln -sf ~/.dotfiles/awesome/theme.lua ~/.config/awesome/theme.lua
 	ln -sf ~/.dotfiles/bashrc ~/.bashrc
+	ln -sf ~/.dotfiles/tmux.conf ~/.tmux.conf
 update:
 	git pull
