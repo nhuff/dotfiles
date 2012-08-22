@@ -17,6 +17,6 @@ XTerm*color13:     #cf9ebe
 XTerm*color14:     #71bebe
 XTerm*color15:     #ffffff
 XTerm*faceName:    Anonymous Pro
-XTerm*faceSize:    15
+XTerm*faceSize:    16
 XTerm*scrollBar:   False
 XTerm*saveLines:   1000
